@@ -3,3 +3,5 @@ def solution(brown, yellow):
     for i in range(1, length):
         if i * (length - i) == brown + yellow:
             return [length - i, i]
+        
+print(solution(10,2))
